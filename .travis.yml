@@ -2,9 +2,7 @@ language: node_js
 node_js:
  - "node"
 script:
-  - /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-  - brew -v
-  - brew install awscli
+  - pip install --user awscli
   - aws --version
   - aws s3 ls
   - npm install --save-dev @applitools/eyes-storybook
