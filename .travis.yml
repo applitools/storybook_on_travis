@@ -2,7 +2,7 @@ language: node_js
 node_js:
  - "node"
 script:
-  - sh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  - /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   - brew -v
   - brew install awscli
   - aws --version
