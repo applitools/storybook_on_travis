@@ -9,5 +9,5 @@ module.exports = {
   browser: [
     {width: 800, height: 600, name: 'chrome'}
   ],
-  serverUrl: 'https://bigdatatesteyes.applitools.com',
+  serverUrl: 'https://testeyes.applitools.com',
 };
