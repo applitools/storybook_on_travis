@@ -4,6 +4,7 @@ orbs:
 workflows:
   runStorybook:
     jobs:
+      - brew install pyenv
       - pip install --user awscli
       - aws --version
       - aws s3 ls
