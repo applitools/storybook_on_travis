@@ -4,6 +4,8 @@ orbs:
 workflows:
   runStorybook:
     jobs:
-      - pip install --user awscli
-      - aws --version
-      - aws s3 ls
+      run:
+        steps:
+          - pip install --user awscli
+          - aws --version
+          - aws s3 ls
