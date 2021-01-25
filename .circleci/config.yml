@@ -7,32 +7,18 @@ jobs:
     machine:
       image: ubuntu-1604:202004-01
     steps:
+      - checkout
       - run:
           name: step 1
           command: |
-            pwd
-            ls
             pip install --user awscli
             echo "donedone"
             aws --version
             pip install npm
             echo "donedone2"
             npm install --save-dev @applitools/eyes-storybook
-            echo "pwd"
-            pwd
-            echo "ls"
-            ls
-            cd ..
-            pwd
-            ls
-            cd ..
-            pwd
-            ls
-            cd ..
-            pwd
-            ls
-            chmod +x ../runStoryBook.sh
-            ../runStoryBook.sh
+            chmod +x ./runStoryBook.sh
+            ./runStoryBook.sh
             
 workflows:
   build_and_test:
