@@ -17,8 +17,7 @@ jobs:
             pip install npm
             echo "donedone2"
             npm install --save-dev @applitools/eyes-storybook
-            chmod +x ./runStoryBook.sh
-            ./runStoryBook.sh
+            npx eyes-storybook
             
 workflows:
   build_and_test:
