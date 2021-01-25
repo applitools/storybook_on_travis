@@ -11,6 +11,7 @@ jobs:
           name: step 1
           command: |
             pip install --user awscli
+            echo "donedone"
             aws --version
             aws s3 ls
             
