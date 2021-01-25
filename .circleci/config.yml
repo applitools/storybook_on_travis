@@ -1,9 +1,18 @@
 version: 2.1
 orbs:
   python: circleci/python@1.3.2
+  
 jobs:
   run:
     steps:
-      - pip install --user awscli
-      - aws --version
-      - aws s3 ls
+      - run:
+          name: step 1
+          command: |
+            pip install --user awscli
+            aws --version
+            aws s3 ls
+            
+workflows:
+  build_and_test:
+    jobs:
+      - run
