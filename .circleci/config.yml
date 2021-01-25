@@ -20,6 +20,12 @@ jobs:
             pwd
             echo "ls"
             ls
+            cd ..
+            pwd
+            ls
+            cd ..
+            pwd
+            ls
             chmod +x ../runStoryBook.sh
             ../runStoryBook.sh
             
