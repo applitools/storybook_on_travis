@@ -18,6 +18,8 @@ jobs:
             npm install --save-dev @applitools/eyes-storybook
             echo "pwd"
             pwd
+            echo "ls"
+            ls
             chmod +x ../runStoryBook.sh
             ../runStoryBook.sh
             
