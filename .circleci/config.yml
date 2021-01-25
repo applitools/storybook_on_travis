@@ -1,9 +1,9 @@
 version: 2.1
 orbs:
-  node: circleci/node@3.0.0
+  python: circleci/python@1.3.2
 workflows:
   runStorybook:
     jobs:
-      - npm install --save-dev @applitools/eyes-storybook
-      - chmod +x ./runStoryBook.sh
-      - ./runStoryBook.sh
+      - pip install --user awscli
+      - aws --version
+      - aws s3 ls
