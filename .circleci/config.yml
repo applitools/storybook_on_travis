@@ -16,6 +16,8 @@ jobs:
             pip install npm
             echo "donedone2"
             npm install --save-dev @applitools/eyes-storybook
+            echo "pwd"
+            pwd
             chmod +x ../runStoryBook.sh
             ../runStoryBook.sh
             
