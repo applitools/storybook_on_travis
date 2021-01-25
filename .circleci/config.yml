@@ -10,6 +10,8 @@ jobs:
       - run:
           name: step 1
           command: |
+            pwd
+            ls
             pip install --user awscli
             echo "donedone"
             aws --version
