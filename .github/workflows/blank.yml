@@ -30,7 +30,4 @@ jobs:
           node-version: '15.x'
       - run: cd $GITHUB_WORKSPACE
       - run: npm install --save-dev @applitools/eyes-storybook
-      - run: chmod +x ./runStoryBook.sh
-      - run: chmod +x ./runStoryBook.sh
-      - run: ./runStoryBook.sh applitools.config.1.js
-      - run: tail Log.log
+      - run: npx eyes-storybook --conf applitools.config.1.js
