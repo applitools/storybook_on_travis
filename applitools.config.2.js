@@ -1,6 +1,6 @@
 module.exports = {
   concurrency: 40,
-  showLogs: true,
+  showLogs: false,
   appName: "LoadTest2",
   batchName: "LoadTest2",
   storybookUrl: "https://jira-storybook.staging.atl-paas.net/?path=/story/*",
