@@ -29,6 +29,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '15.x'
+      - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
       - run: cd $GITHUB_WORKSPACE
       - run: npm install --save-dev @applitools/eyes-storybook
       - run: npx eyes-storybook --conf applitools.config.1.js
