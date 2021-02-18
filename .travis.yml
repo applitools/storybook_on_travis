@@ -1,13 +1,34 @@
 language: node_js
 node_js:
  - "node"
-script:
-  - pip install --user awscli
-  - aws --version
-  - aws s3 ls
-  - npm install --save-dev @applitools/eyes-storybook
-  - chmod +x ./runStoryBook.sh
-  - ./runStoryBook.sh
-  - tail Log.log
+ 
+jobs:
+  include:
+    - name: Run1
+    language: node_js
+    node_js:
+      - "node"
+    script:
+      - npm install --save-dev @applitools/eyes-storybook
+      - chmod +x ./runStoryBook.sh
+      - ./runStoryBook.sh
+      - tail Log.log
+  - name: Run2
+    language: node_js
+    node_js:
+      - "node"
+    script:
+      - npm install --save-dev @applitools/eyes-storybook
+      - chmod +x ./runStoryBook.sh
+      - ./runStoryBook.sh
+      - tail Log.log
+# script:
+#   - pip install --user awscli
+#   - aws --version
+#   - aws s3 ls
+#   - npm install --save-dev @applitools/eyes-storybook
+#   - chmod +x ./runStoryBook.sh
+#   - ./runStoryBook.sh
+#   - tail Log.log
 #  - TIMESTAMP=`date "+%Y%m%d-%H%M%S"`
 #  - aws s3 cp Log.log s3://sdk-reports/Storybook_log_$TIMESTAMP.log
