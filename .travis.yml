@@ -11,7 +11,7 @@ jobs:
       script:
         - npm install --save-dev @applitools/eyes-storybook
         - chmod +x ./runStoryBook.sh
-        - ./runStoryBook.sh
+        - ./runStoryBook.sh applitools.config.1.js
         - tail Log.log
     - name: Run2
       language: node_js
@@ -20,7 +20,7 @@ jobs:
       script:
         - npm install --save-dev @applitools/eyes-storybook
         - chmod +x ./runStoryBook.sh
-        - ./runStoryBook.sh
+        - ./runStoryBook.sh applitools.config.2.js
         - tail Log.log
 # script:
 #   - pip install --user awscli
