@@ -1,7 +1,7 @@
 module.exports = {
   concurrency: 40,
   showLogs: true,
-  appName: "Storybook_Test",
+  appName: "Storybook_Test2",
   batchName: "Storybook2",
   storybookUrl: "https://jira-storybook.staging.atl-paas.net/?path=/story/*",
   readStoriesTimeout: 300000,
