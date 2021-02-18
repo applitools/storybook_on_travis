@@ -13,7 +13,7 @@ jobs:
       - chmod +x ./runStoryBook.sh
       - ./runStoryBook.sh
       - tail Log.log
-  - name: Run2
+    - name: Run2
     language: node_js
     node_js:
       - "node"
