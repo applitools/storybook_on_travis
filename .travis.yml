@@ -5,23 +5,23 @@ node_js:
 jobs:
   include:
     - name: Run1
-    language: node_js
-    node_js:
-      - "node"
-    script:
-      - npm install --save-dev @applitools/eyes-storybook
-      - chmod +x ./runStoryBook.sh
-      - ./runStoryBook.sh
-      - tail Log.log
+      language: node_js
+      node_js:
+        - "node"
+      script:
+        - npm install --save-dev @applitools/eyes-storybook
+        - chmod +x ./runStoryBook.sh
+        - ./runStoryBook.sh
+        - tail Log.log
     - name: Run2
-    language: node_js
-    node_js:
-      - "node"
-    script:
-      - npm install --save-dev @applitools/eyes-storybook
-      - chmod +x ./runStoryBook.sh
-      - ./runStoryBook.sh
-      - tail Log.log
+      language: node_js
+      node_js:
+        - "node"
+      script:
+        - npm install --save-dev @applitools/eyes-storybook
+        - chmod +x ./runStoryBook.sh
+        - ./runStoryBook.sh
+        - tail Log.log
 # script:
 #   - pip install --user awscli
 #   - aws --version
