@@ -3,7 +3,7 @@ module.exports = {
   showLogs: true,
   appName: "LoadTest1",
   batchName: "LoadTest1",
-  storybookUrl: "https://jira-storybook.staging.atl-paas.net/?path=/story/*",
+  storybookUrl: "http://airbnb.io/react-dates/?path=/story/daterangepicker-drp--default",
   readStoriesTimeout: 300000,
   waitBeforeScreenshots: 200,
   browser: [
