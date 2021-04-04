@@ -11,5 +11,5 @@ module.exports = {
     {width: 800, height: 600, name: 'firefox'},
     {width: 800, height: 600, name: 'safari'}
   ],
-  serverUrl: 'https://test2eyes.applitools.com',
+  serverUrl: 'https://testeyes.applitools.com',
 };
