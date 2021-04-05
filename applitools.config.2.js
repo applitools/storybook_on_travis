@@ -1,5 +1,5 @@
 module.exports = {
-  concurrency: 100,
+  concurrency: 20,
   showLogs: true,
   appName: "LoadTest2",
   batchName: "LoadTest2",
