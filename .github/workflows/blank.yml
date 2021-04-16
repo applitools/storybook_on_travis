@@ -288,3 +288,275 @@ jobs:
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
   #     - run: npx eyes-storybook --conf applitools.config.16.js
+  # build17:
+  #   # The type of runner that the job will run on
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     APPLITOOLS_API_KEY: ${{ secrets.APPLITOOLS_API_KEY }}
+  #   # Steps represent a sequence of tasks that will be executed as part of the job
+  #   steps:
+  #     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+  #     - uses: actions/checkout@v2
+  #     - name: Use Node.js
+  #       uses: actions/setup-node@v1
+  #       with:
+  #         node-version: '15.x'
+  #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
+  #     - run: cd $GITHUB_WORKSPACE
+  #     - run: npm install --save-dev @applitools/eyes-storybook
+  #     - run: npx eyes-storybook --conf applitools.config.1.js
+  # build18:
+  #   # The type of runner that the job will run on
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     APPLITOOLS_API_KEY: ${{ secrets.APPLITOOLS_API_KEY }}
+  #   # Steps represent a sequence of tasks that will be executed as part of the job
+  #   steps:
+  #     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+  #     - uses: actions/checkout@v2
+  #     - name: Use Node.js
+  #       uses: actions/setup-node@v1
+  #       with:
+  #         node-version: '15.x'
+  #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
+  #     - run: cd $GITHUB_WORKSPACE
+  #     - run: npm install --save-dev @applitools/eyes-storybook
+  #     - run: npx eyes-storybook --conf applitools.config.2.js
+  # build19:
+  #   # The type of runner that the job will run on
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     APPLITOOLS_API_KEY: ${{ secrets.APPLITOOLS_API_KEY }}
+  #   # Steps represent a sequence of tasks that will be executed as part of the job
+  #   steps:
+  #     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+  #     - uses: actions/checkout@v2
+  #     - name: Use Node.js
+  #       uses: actions/setup-node@v1
+  #       with:
+  #         node-version: '15.x'
+  #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
+  #     - run: cd $GITHUB_WORKSPACE
+  #     - run: npm install --save-dev @applitools/eyes-storybook
+  #     - run: npx eyes-storybook --conf applitools.config.3.js
+  # build20:
+  #   # The type of runner that the job will run on
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     APPLITOOLS_API_KEY: ${{ secrets.APPLITOOLS_API_KEY }}
+  #   # Steps represent a sequence of tasks that will be executed as part of the job
+  #   steps:
+  #     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+  #     - uses: actions/checkout@v2
+  #     - name: Use Node.js
+  #       uses: actions/setup-node@v1
+  #       with:
+  #         node-version: '15.x'
+  #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
+  #     - run: cd $GITHUB_WORKSPACE
+  #     - run: npm install --save-dev @applitools/eyes-storybook
+  #     - run: npx eyes-storybook --conf applitools.config.4.js
+  # build21:
+  #   # The type of runner that the job will run on
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     APPLITOOLS_API_KEY: ${{ secrets.APPLITOOLS_API_KEY }}
+  #   # Steps represent a sequence of tasks that will be executed as part of the job
+  #   steps:
+  #     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+  #     - uses: actions/checkout@v2
+  #     - name: Use Node.js
+  #       uses: actions/setup-node@v1
+  #       with:
+  #         node-version: '15.x'
+  #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
+  #     - run: cd $GITHUB_WORKSPACE
+  #     - run: npm install --save-dev @applitools/eyes-storybook
+  #     - run: npx eyes-storybook --conf applitools.config.5.js
+  # build22:
+  #   # The type of runner that the job will run on
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     APPLITOOLS_API_KEY: ${{ secrets.APPLITOOLS_API_KEY }}
+  #   # Steps represent a sequence of tasks that will be executed as part of the job
+  #   steps:
+  #     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+  #     - uses: actions/checkout@v2
+  #     - name: Use Node.js
+  #       uses: actions/setup-node@v1
+  #       with:
+  #         node-version: '15.x'
+  #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
+  #     - run: cd $GITHUB_WORKSPACE
+  #     - run: npm install --save-dev @applitools/eyes-storybook
+  #     - run: npx eyes-storybook --conf applitools.config.6.js
+  # build23:
+  #   # The type of runner that the job will run on
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     APPLITOOLS_API_KEY: ${{ secrets.APPLITOOLS_API_KEY }}
+  #   # Steps represent a sequence of tasks that will be executed as part of the job
+  #   steps:
+  #     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+  #     - uses: actions/checkout@v2
+  #     - name: Use Node.js
+  #       uses: actions/setup-node@v1
+  #       with:
+  #         node-version: '15.x'
+  #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
+  #     - run: cd $GITHUB_WORKSPACE
+  #     - run: npm install --save-dev @applitools/eyes-storybook
+  #     - run: npx eyes-storybook --conf applitools.config.7.js
+  # build24:
+  #   # The type of runner that the job will run on
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     APPLITOOLS_API_KEY: ${{ secrets.APPLITOOLS_API_KEY }}
+  #   # Steps represent a sequence of tasks that will be executed as part of the job
+  #   steps:
+  #     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+  #     - uses: actions/checkout@v2
+  #     - name: Use Node.js
+  #       uses: actions/setup-node@v1
+  #       with:
+  #         node-version: '15.x'
+  #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
+  #     - run: cd $GITHUB_WORKSPACE
+  #     - run: npm install --save-dev @applitools/eyes-storybook
+  #     - run: npx eyes-storybook --conf applitools.config.8.js
+  # build25:
+  #   # The type of runner that the job will run on
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     APPLITOOLS_API_KEY: ${{ secrets.APPLITOOLS_API_KEY }}
+  #   # Steps represent a sequence of tasks that will be executed as part of the job
+  #   steps:
+  #     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+  #     - uses: actions/checkout@v2
+  #     - name: Use Node.js
+  #       uses: actions/setup-node@v1
+  #       with:
+  #         node-version: '15.x'
+  #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
+  #     - run: cd $GITHUB_WORKSPACE
+  #     - run: npm install --save-dev @applitools/eyes-storybook
+  #     - run: npx eyes-storybook --conf applitools.config.9.js
+  # build26:
+  #   # The type of runner that the job will run on
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     APPLITOOLS_API_KEY: ${{ secrets.APPLITOOLS_API_KEY }}
+  #   # Steps represent a sequence of tasks that will be executed as part of the job
+  #   steps:
+  #     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+  #     - uses: actions/checkout@v2
+  #     - name: Use Node.js
+  #       uses: actions/setup-node@v1
+  #       with:
+  #         node-version: '15.x'
+  #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
+  #     - run: cd $GITHUB_WORKSPACE
+  #     - run: npm install --save-dev @applitools/eyes-storybook
+  #     - run: npx eyes-storybook --conf applitools.config.10.js
+  # build27:
+  #   # The type of runner that the job will run on
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     APPLITOOLS_API_KEY: ${{ secrets.APPLITOOLS_API_KEY }}
+  #   # Steps represent a sequence of tasks that will be executed as part of the job
+  #   steps:
+  #     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+  #     - uses: actions/checkout@v2
+  #     - name: Use Node.js
+  #       uses: actions/setup-node@v1
+  #       with:
+  #         node-version: '15.x'
+  #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
+  #     - run: cd $GITHUB_WORKSPACE
+  #     - run: npm install --save-dev @applitools/eyes-storybook
+  #     - run: npx eyes-storybook --conf applitools.config.11.js
+  # build28:
+  #   # The type of runner that the job will run on
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     APPLITOOLS_API_KEY: ${{ secrets.APPLITOOLS_API_KEY }}
+  #   # Steps represent a sequence of tasks that will be executed as part of the job
+  #   steps:
+  #     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+  #     - uses: actions/checkout@v2
+  #     - name: Use Node.js
+  #       uses: actions/setup-node@v1
+  #       with:
+  #         node-version: '15.x'
+  #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
+  #     - run: cd $GITHUB_WORKSPACE
+  #     - run: npm install --save-dev @applitools/eyes-storybook
+  #     - run: npx eyes-storybook --conf applitools.config.12.js
+  # build29:
+  #   # The type of runner that the job will run on
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     APPLITOOLS_API_KEY: ${{ secrets.APPLITOOLS_API_KEY }}
+  #   # Steps represent a sequence of tasks that will be executed as part of the job
+  #   steps:
+  #     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+  #     - uses: actions/checkout@v2
+  #     - name: Use Node.js
+  #       uses: actions/setup-node@v1
+  #       with:
+  #         node-version: '15.x'
+  #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
+  #     - run: cd $GITHUB_WORKSPACE
+  #     - run: npm install --save-dev @applitools/eyes-storybook
+  #     - run: npx eyes-storybook --conf applitools.config.13.js
+  # build30:
+  #   # The type of runner that the job will run on
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     APPLITOOLS_API_KEY: ${{ secrets.APPLITOOLS_API_KEY }}
+  #   # Steps represent a sequence of tasks that will be executed as part of the job
+  #   steps:
+  #     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+  #     - uses: actions/checkout@v2
+  #     - name: Use Node.js
+  #       uses: actions/setup-node@v1
+  #       with:
+  #         node-version: '15.x'
+  #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
+  #     - run: cd $GITHUB_WORKSPACE
+  #     - run: npm install --save-dev @applitools/eyes-storybook
+  #     - run: npx eyes-storybook --conf applitools.config.14.js
+  # build31:
+  #   # The type of runner that the job will run on
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     APPLITOOLS_API_KEY: ${{ secrets.APPLITOOLS_API_KEY }}
+  #   # Steps represent a sequence of tasks that will be executed as part of the job
+  #   steps:
+  #     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+  #     - uses: actions/checkout@v2
+  #     - name: Use Node.js
+  #       uses: actions/setup-node@v1
+  #       with:
+  #         node-version: '15.x'
+  #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
+  #     - run: cd $GITHUB_WORKSPACE
+  #     - run: npm install --save-dev @applitools/eyes-storybook
+  #     - run: npx eyes-storybook --conf applitools.config.15.js
+  # build32:
+  #   # The type of runner that the job will run on
+  #   runs-on: ubuntu-latest
+  #   env:
+  #     APPLITOOLS_API_KEY: ${{ secrets.APPLITOOLS_API_KEY }}
+  #   # Steps represent a sequence of tasks that will be executed as part of the job
+  #   steps:
+  #     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+  #     - uses: actions/checkout@v2
+  #     - name: Use Node.js
+  #       uses: actions/setup-node@v1
+  #       with:
+  #         node-version: '15.x'
+  #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
+  #     - run: cd $GITHUB_WORKSPACE
+  #     - run: npm install --save-dev @applitools/eyes-storybook
+  #     - run: npx eyes-storybook --conf applitools.config.16.js
