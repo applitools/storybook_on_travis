@@ -1,5 +1,5 @@
 module.exports = {
-  testConcurrency: 50,
+  testConcurrency: 20,
   showLogs: true,
   appName: "LoadTest13",
   batchName: "LoadTest13",
@@ -9,5 +9,5 @@ module.exports = {
   browser: [
     {width: 800, height: 600, name: 'chrome'}
   ],
-  serverUrl: 'https://testeyes.applitools.com',
+  serverUrl: 'https://test2eyes.applitools.com',
 };
