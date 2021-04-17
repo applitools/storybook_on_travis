@@ -1,4 +1,4 @@
-odule.exports = {
+module.exports = {
   testConcurrency: {concurrency},
   showLogs: true,
   appName: "{buildName}",
