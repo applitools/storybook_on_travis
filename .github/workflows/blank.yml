@@ -32,9 +32,9 @@ jobs:
       - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
       - run: cd $GITHUB_WORKSPACE
       - run: npm install --save-dev @applitools/eyes-storybook
-      - run: touch applitools.config.1.js
-      - run: sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.1.js
-      - run: npx eyes-storybook --conf applitools.config.1.js
+      - run: touch applitools.config.js
+      - run: sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
+      - run: npx eyes-storybook --conf applitools.config.js
   build2:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
@@ -51,9 +51,9 @@ jobs:
       - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
       - run: cd $GITHUB_WORKSPACE
       - run: npm install --save-dev @applitools/eyes-storybook
-      - run: touch applitools.config.2.js
-      - run: sed 's+{buildName}+LoadTest2+g' config.file.template > applitools.config.2.js
-      - run: npx eyes-storybook --conf applitools.config.2.js
+      - run: touch applitools.config.js
+      - run: sed 's+{buildName}+LoadTest2+g' config.file.template > applitools.config.js
+      - run: npx eyes-storybook --conf applitools.config.js
   # build3:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -70,9 +70,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.3.js
-  #     - run: sed 's+{buildName}+LoadTest3+g' config.file.template > applitools.config.3.js
-  #     - run: npx eyes-storybook --conf applitools.config.3.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest3+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build4:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -89,9 +89,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.4.js
-  #     - run: sed 's+{buildName}+LoadTest4+g' config.file.template > applitools.config.4.js
-  #     - run: npx eyes-storybook --conf applitools.config.4.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest4+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build5:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -108,9 +108,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.5.js
-  #     - run: sed 's+{buildName}+LoadTest5+g' config.file.template > applitools.config.5.js
-  #     - run: npx eyes-storybook --conf applitools.config.5.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest5+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build6:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -127,9 +127,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.6.js
-  #     - run: sed 's+{buildName}+LoadTest6+g' config.file.template > applitools.config.6.js
-  #     - run: npx eyes-storybook --conf applitools.config.6.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest6+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build7:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -146,9 +146,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.7.js
-  #     - run: sed 's+{buildName}+LoadTest7+g' config.file.template > applitools.config.7.js
-  #     - run: npx eyes-storybook --conf applitools.config.7.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest7+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build8:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -165,9 +165,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.8.js
-  #     - run: sed 's+{buildName}+LoadTest8+g' config.file.template > applitools.config.8.js
-  #     - run: npx eyes-storybook --conf applitools.config.8.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest8+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build9:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -184,9 +184,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.9.js
-  #     - run: sed 's+{buildName}+LoadTest9+g' config.file.template > applitools.config.9.js
-  #     - run: npx eyes-storybook --conf applitools.config.9.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest9+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build10:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -203,9 +203,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.10.js
-  #     - run: sed 's+{buildName}+LoadTest10+g' config.file.template > applitools.config.10.js
-  #     - run: npx eyes-storybook --conf applitools.config.10.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest10+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build11:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -222,9 +222,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.11.js
-  #     - run: sed 's+{buildName}+LoadTest11+g' config.file.template > applitools.config.11.js
-  #     - run: npx eyes-storybook --conf applitools.config.11.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest11+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build12:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -241,9 +241,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.12.js
-  #     - run: sed 's+{buildName}+LoadTest12+g' config.file.template > applitools.config.12.js
-  #     - run: npx eyes-storybook --conf applitools.config.12.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest12+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build13:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -260,9 +260,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.13.js
-  #     - run: sed 's+{buildName}+LoadTest13+g' config.file.template > applitools.config.13.js
-  #     - run: npx eyes-storybook --conf applitools.config.13.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest13+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build14:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -279,9 +279,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.14.js
-  #     - run: sed 's+{buildName}+LoadTest14+g' config.file.template > applitools.config.14.js
-  #     - run: npx eyes-storybook --conf applitools.config.14.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest14+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build15:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -298,9 +298,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.15.js
-  #     - run: sed 's+{buildName}+LoadTest15+g' config.file.template > applitools.config.15.js
-  #     - run: npx eyes-storybook --conf applitools.config.15.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest15+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build16:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -317,9 +317,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.16.js
-  #     - run: sed 's+{buildName}+LoadTest16+g' config.file.template > applitools.config.16.js
-  #     - run: npx eyes-storybook --conf applitools.config.16.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest16+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build17:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -336,9 +336,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.17.js
-  #     - run: sed 's+{buildName}+LoadTest17+g' config.file.template > applitools.config.17.js
-  #     - run: npx eyes-storybook --conf applitools.config.17.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest17+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build18:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -355,9 +355,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.18.js
-  #     - run: sed 's+{buildName}+LoadTest18+g' config.file.template > applitools.config.18.js
-  #     - run: npx eyes-storybook --conf applitools.config.18.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest18+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build19:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -374,9 +374,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.19.js
-  #     - run: sed 's+{buildName}+LoadTest19+g' config.file.template > applitools.config.19.js
-  #     - run: npx eyes-storybook --conf applitools.config.19.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest19+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build20:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -393,9 +393,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.20.js
-  #     - run: sed 's+{buildName}+LoadTest20+g' config.file.template > applitools.config.20.js
-  #     - run: npx eyes-storybook --conf applitools.config.20.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest20+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build21:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -412,9 +412,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.21.js
-  #     - run: sed 's+{buildName}+LoadTest21+g' config.file.template > applitools.config.21.js
-  #     - run: npx eyes-storybook --conf applitools.config.21.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest21+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build22:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -431,9 +431,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.22.js
-  #     - run: sed 's+{buildName}+LoadTest22+g' config.file.template > applitools.config.22.js
-  #     - run: npx eyes-storybook --conf applitools.config.22.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest22+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build23:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -450,9 +450,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.23.js
-  #     - run: sed 's+{buildName}+LoadTest23+g' config.file.template > applitools.config.23.js
-  #     - run: npx eyes-storybook --conf applitools.config.23.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest23+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build24:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -469,9 +469,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.24.js
-  #     - run: sed 's+{buildName}+LoadTest24+g' config.file.template > applitools.config.24.js
-  #     - run: npx eyes-storybook --conf applitools.config.24.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest24+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build25:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -488,9 +488,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.25.js
-  #     - run: sed 's+{buildName}+LoadTest25+g' config.file.template > applitools.config.25.js
-  #     - run: npx eyes-storybook --conf applitools.config.25.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest25+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build26:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -507,9 +507,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.26.js
-  #     - run: sed 's+{buildName}+LoadTest26+g' config.file.template > applitools.config.26.js
-  #     - run: npx eyes-storybook --conf applitools.config.26.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest26+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build27:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -526,9 +526,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.27.js
-  #     - run: sed 's+{buildName}+LoadTest27+g' config.file.template > applitools.config.27.js
-  #     - run: npx eyes-storybook --conf applitools.config.27.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest27+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build28:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -545,9 +545,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.28.js
-  #     - run: sed 's+{buildName}+LoadTest28+g' config.file.template > applitools.config.28.js
-  #     - run: npx eyes-storybook --conf applitools.config.28.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest28+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build29:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -564,9 +564,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.29.js
-  #     - run: sed 's+{buildName}+LoadTest29+g' config.file.template > applitools.config.29.js
-  #     - run: npx eyes-storybook --conf applitools.config.29.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest29+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build30:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -583,9 +583,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.30.js
-  #     - run: sed 's+{buildName}+LoadTest30+g' config.file.template > applitools.config.30.js
-  #     - run: npx eyes-storybook --conf applitools.config.30.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest30+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build31:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -602,9 +602,9 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.31.js
-  #     - run: sed 's+{buildName}+LoadTest31+g' config.file.template > applitools.config.31.js
-  #     - run: npx eyes-storybook --conf applitools.config.31.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest31+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
   # build32:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
@@ -621,6 +621,6 @@ jobs:
   #     - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
   #     - run: cd $GITHUB_WORKSPACE
   #     - run: npm install --save-dev @applitools/eyes-storybook
-  #     - run: touch applitools.config.32.js
-  #     - run: sed 's+{buildName}+LoadTest32+g' config.file.template > applitools.config.32.js
-  #     - run: npx eyes-storybook --conf applitools.config.32.js
+  #     - run: touch applitools.config.js
+  #     - run: sed 's+{buildName}+LoadTest32+g' config.file.template > applitools.config.js
+  #     - run: npx eyes-storybook --conf applitools.config.js
