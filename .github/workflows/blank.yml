@@ -25,13 +25,15 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      - uses: dcodeIO/setup-node-nvm@master
+      - name: Use Node.js
+        uses: actions/setup-node@v1
         with:
-          node-version: lts/*
-      - run: nvm install 14.5.0
-      - run: nvm use 14.5.0
-      - run: cd coverage-tests;
-      - run: yarn java
+          node-version: '15.x'
+      - run: curl -sL https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh -o install_nvm.sh
+      # - run: nvm install 14.5.0
+      # - run: nvm use 14.5.0
+      # - run: cd coverage-tests;
+      # - run: yarn java
   # build1:
   #   # The type of runner that the job will run on
   #   runs-on: ubuntu-latest
