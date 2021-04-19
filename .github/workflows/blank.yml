@@ -72,6 +72,7 @@ jobs:
           node-version: '15.x'
       - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
       - run: export APPLITOOLS_API_KEY=Jie0hycCfMPWfSQj5iXhYN4xUo9NQ8llJPX0eiqWrvI110
+      - run: echo $APPLITOOLS_API_KEY
       - run: cd $GITHUB_WORKSPACE
       - run: npm install --save-dev @applitools/eyes-storybook
       - run: touch applitools.config.js
