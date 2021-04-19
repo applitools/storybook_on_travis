@@ -55,7 +55,7 @@ jobs:
       - run: cd $GITHUB_WORKSPACE
       - run: npm install --save-dev @applitools/eyes-storybook
       - run: touch applitools.config.js
-      - run: sed 's+{buildName}+LoadTest8TeamsPerTeamLimit1+g' config.file.template > applitools.config.js
+      - run: sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
       - run: npx eyes-storybook --conf applitools.config.js
   build2:
     # The type of runner that the job will run on
@@ -75,7 +75,7 @@ jobs:
       - run: cd $GITHUB_WORKSPACE
       - run: npm install --save-dev @applitools/eyes-storybook
       - run: touch applitools.config.js
-      - run: sed 's+{buildName}+LoadTest8TeamsPerTeamLimit2+g' config.file.template > applitools.config.js
+      - run: sed 's+{buildName}+LoadTest2+g' config.file.template > applitools.config.js
       - run: npx eyes-storybook --conf applitools.config.js
   build3:
     # The type of runner that the job will run on
@@ -95,7 +95,7 @@ jobs:
       - run: cd $GITHUB_WORKSPACE
       - run: npm install --save-dev @applitools/eyes-storybook
       - run: touch applitools.config.js
-      - run: sed 's+{buildName}+LoadTest8TeamsPerTeamLimit3+g' config.file.template > applitools.config.js
+      - run: sed 's+{buildName}+LoadTest3+g' config.file.template > applitools.config.js
       - run: npx eyes-storybook --conf applitools.config.js
   build4:
     # The type of runner that the job will run on
@@ -115,7 +115,7 @@ jobs:
       - run: cd $GITHUB_WORKSPACE
       - run: npm install --save-dev @applitools/eyes-storybook
       - run: touch applitools.config.js
-      - run: sed 's+{buildName}+LoadTest8TeamsPerTeamLimit4+g' config.file.template > applitools.config.js
+      - run: sed 's+{buildName}+LoadTest4+g' config.file.template > applitools.config.js
       - run: npx eyes-storybook --conf applitools.config.js
   build5:
     # The type of runner that the job will run on
@@ -135,7 +135,7 @@ jobs:
       - run: cd $GITHUB_WORKSPACE
       - run: npm install --save-dev @applitools/eyes-storybook
       - run: touch applitools.config.js
-      - run: sed 's+{buildName}+LoadTest8TeamsPerTeamLimit5+g' config.file.template > applitools.config.js
+      - run: sed 's+{buildName}+LoadTest5+g' config.file.template > applitools.config.js
       - run: npx eyes-storybook --conf applitools.config.js
   build6:
     # The type of runner that the job will run on
@@ -155,7 +155,7 @@ jobs:
       - run: cd $GITHUB_WORKSPACE
       - run: npm install --save-dev @applitools/eyes-storybook
       - run: touch applitools.config.js
-      - run: sed 's+{buildName}+LoadTest8TeamsPerTeamLimit6+g' config.file.template > applitools.config.js
+      - run: sed 's+{buildName}+LoadTest6+g' config.file.template > applitools.config.js
       - run: npx eyes-storybook --conf applitools.config.js
   build7:
     # The type of runner that the job will run on
@@ -175,7 +175,7 @@ jobs:
       - run: cd $GITHUB_WORKSPACE
       - run: npm install --save-dev @applitools/eyes-storybook
       - run: touch applitools.config.js
-      - run: sed 's+{buildName}+LoadTest8TeamsPerTeamLimit7+g' config.file.template > applitools.config.js
+      - run: sed 's+{buildName}+LoadTest7+g' config.file.template > applitools.config.js
       - run: npx eyes-storybook --conf applitools.config.js
   build8:
     # The type of runner that the job will run on
@@ -195,7 +195,7 @@ jobs:
       - run: cd $GITHUB_WORKSPACE
       - run: npm install --save-dev @applitools/eyes-storybook
       - run: touch applitools.config.js
-      - run: sed 's+{buildName}+LoadTest8TeamsPerTeamLimit8+g' config.file.template > applitools.config.js
+      - run: sed 's+{buildName}+LoadTest8+g' config.file.template > applitools.config.js
       - run: npx eyes-storybook --conf applitools.config.js
   # build9:
   #   # The type of runner that the job will run on
