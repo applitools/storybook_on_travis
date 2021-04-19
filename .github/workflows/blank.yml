@@ -131,6 +131,7 @@ jobs:
       - run: npm install --save-dev @applitools/eyes-storybook
       - run: touch applitools.config.js
       - run: sed 's+{buildName}+LoadTest5+g' config.file.template > applitools.config.js
+      - run: sleep 10
       - run: npx eyes-storybook --conf applitools.config.js
   build6:
     # The type of runner that the job will run on
@@ -150,6 +151,7 @@ jobs:
       - run: npm install --save-dev @applitools/eyes-storybook
       - run: touch applitools.config.js
       - run: sed 's+{buildName}+LoadTest6+g' config.file.template > applitools.config.js
+      - run: sleep 10
       - run: npx eyes-storybook --conf applitools.config.js
   build7:
     # The type of runner that the job will run on
@@ -169,6 +171,7 @@ jobs:
       - run: npm install --save-dev @applitools/eyes-storybook
       - run: touch applitools.config.js
       - run: sed 's+{buildName}+LoadTest7+g' config.file.template > applitools.config.js
+      - run: sleep 10
       - run: npx eyes-storybook --conf applitools.config.js
   build8:
     # The type of runner that the job will run on
@@ -188,6 +191,7 @@ jobs:
       - run: npm install --save-dev @applitools/eyes-storybook
       - run: touch applitools.config.js
       - run: sed 's+{buildName}+LoadTest8+g' config.file.template > applitools.config.js
+      - run: sleep 10
       - run: npx eyes-storybook --conf applitools.config.js
   # build9:
   #   # The type of runner that the job will run on
