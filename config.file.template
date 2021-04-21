@@ -1,6 +1,6 @@
 module.exports = {
   testConcurrency: 50,
-  showLogs: true,
+  showLogs: false,
   appName: "{buildName}",
   batchName: "{buildName}",
   storybookUrl: "http://airbnb.io/react-dates/?path=/story/daterangepicker-drp--default",
