@@ -51,7 +51,7 @@ jobs:
         with:
           node-version: '15.x'
       - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
-      - run: echo "APPLITOOLS_API_KEY=Y23EJfdvNrMBsvW97yYYviHz7Z69scgghK8aa77aHP94110" >> $GITHUB_ENV
+      # - run: echo "APPLITOOLS_API_KEY=Y23EJfdvNrMBsvW97yYYviHz7Z69scgghK8aa77aHP94110" >> $GITHUB_ENV
       - run: cd $GITHUB_WORKSPACE
       - run: npm install --save-dev @applitools/eyes-storybook
       - run: touch applitools.config.js
@@ -71,7 +71,7 @@ jobs:
         with:
           node-version: '15.x'
       - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
-      - run: echo "APPLITOOLS_API_KEY=Jie0hycCfMPWfSQj5iXhYN4xUo9NQ8llJPX0eiqWrvI110" >> $GITHUB_ENV
+      # - run: echo "APPLITOOLS_API_KEY=Jie0hycCfMPWfSQj5iXhYN4xUo9NQ8llJPX0eiqWrvI110" >> $GITHUB_ENV
       - run: cd $GITHUB_WORKSPACE
       - run: npm install --save-dev @applitools/eyes-storybook
       - run: touch applitools.config.js
@@ -91,7 +91,7 @@ jobs:
         with:
           node-version: '15.x'
       - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
-      - run: echo "APPLITOOLS_API_KEY=6Ef8MAssgGASWIrzvmDuh5580hGgcXc98IcupRjijQT4110" >> $GITHUB_ENV
+      # - run: echo "APPLITOOLS_API_KEY=6Ef8MAssgGASWIrzvmDuh5580hGgcXc98IcupRjijQT4110" >> $GITHUB_ENV
       - run: cd $GITHUB_WORKSPACE
       - run: npm install --save-dev @applitools/eyes-storybook
       - run: touch applitools.config.js
@@ -111,7 +111,7 @@ jobs:
         with:
           node-version: '15.x'
       - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
-      - run: echo "APPLITOOLS_API_KEY=VVOCB3pBEYxzCP6Jl6k92HUIqtBKXLXA3IM4OyutKdU110" >> $GITHUB_ENV
+      # - run: echo "APPLITOOLS_API_KEY=VVOCB3pBEYxzCP6Jl6k92HUIqtBKXLXA3IM4OyutKdU110" >> $GITHUB_ENV
       - run: cd $GITHUB_WORKSPACE
       - run: npm install --save-dev @applitools/eyes-storybook
       - run: touch applitools.config.js
@@ -131,7 +131,7 @@ jobs:
         with:
           node-version: '15.x'
       - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
-      - run: echo "APPLITOOLS_API_KEY=RQJdgg1035Mc4j8TPM7DwlhWqdQ107RMyAbbQ1008kPWs1OZo110" >> $GITHUB_ENV
+      # - run: echo "APPLITOOLS_API_KEY=RQJdgg1035Mc4j8TPM7DwlhWqdQ107RMyAbbQ1008kPWs1OZo110" >> $GITHUB_ENV
       - run: cd $GITHUB_WORKSPACE
       - run: npm install --save-dev @applitools/eyes-storybook
       - run: touch applitools.config.js
@@ -152,7 +152,7 @@ jobs:
         with:
           node-version: '15.x'
       - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
-      - run: echo "APPLITOOLS_API_KEY=E3BnY3IDw8z9JWrNmazih7A3wiOvuYmN1w6Mk8JAAHI110" >> $GITHUB_ENV
+      # - run: echo "APPLITOOLS_API_KEY=E3BnY3IDw8z9JWrNmazih7A3wiOvuYmN1w6Mk8JAAHI110" >> $GITHUB_ENV
       - run: cd $GITHUB_WORKSPACE
       - run: npm install --save-dev @applitools/eyes-storybook
       - run: touch applitools.config.js
@@ -173,7 +173,7 @@ jobs:
         with:
           node-version: '15.x'
       - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
-      - run: echo "APPLITOOLS_API_KEY=6MBzVTSb25pHQl0kC99pfBlJTyxCrdGZnGWZ9Pyfcsos110" >> $GITHUB_ENV
+      # - run: echo "APPLITOOLS_API_KEY=6MBzVTSb25pHQl0kC99pfBlJTyxCrdGZnGWZ9Pyfcsos110" >> $GITHUB_ENV
       - run: cd $GITHUB_WORKSPACE
       - run: npm install --save-dev @applitools/eyes-storybook
       - run: touch applitools.config.js
@@ -194,7 +194,7 @@ jobs:
         with:
           node-version: '15.x'
       - run: echo ${{ secrets.APPLITOOLS_API_KEY }}
-      - run: echo "APPLITOOLS_API_KEY=Tp99QBdU104oZeaisucz99BdPTLg4MJT7zpKSirWGHli107108Y110" >> $GITHUB_ENV
+      # - run: echo "APPLITOOLS_API_KEY=Tp99QBdU104oZeaisucz99BdPTLg4MJT7zpKSirWGHli107108Y110" >> $GITHUB_ENV
       - run: cd $GITHUB_WORKSPACE
       - run: npm install --save-dev @applitools/eyes-storybook
       - run: touch applitools.config.js
