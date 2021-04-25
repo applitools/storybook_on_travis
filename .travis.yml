@@ -40,3 +40,223 @@ jobs:
         - touch applitools.config.js
         - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
         - npx eyes-storybook --conf applitools.config.js
+    - name: Load test 1
+      language: node_js
+      node_js: 14
+      before_install: skip
+      script:
+        - export APPLITOOLS_API_KEY=Y23EJfdvNrMBsvW97yYYviHz7Z69scgghK8aa77aHP94110
+        - npm install --save-dev @applitools/eyes-storybook
+        - touch applitools.config.js
+        - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
+        - npx eyes-storybook --conf applitools.config.js
+    - name: Load test 2
+      language: node_js
+      node_js: 14
+      before_install: skip
+      script:
+        -  export APPLITOOLS_API_KEY=Jie0hycCfMPWfSQj5iXhYN4xUo9NQ8llJPX0eiqWrvI110
+        - npm install --save-dev @applitools/eyes-storybook
+        - touch applitools.config.js
+        - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
+        - npx eyes-storybook --conf applitools.config.js
+    - name: Load test 1
+      language: node_js
+      node_js: 14
+      before_install: skip
+      script:
+        - export APPLITOOLS_API_KEY=Y23EJfdvNrMBsvW97yYYviHz7Z69scgghK8aa77aHP94110
+        - npm install --save-dev @applitools/eyes-storybook
+        - touch applitools.config.js
+        - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
+        - npx eyes-storybook --conf applitools.config.js
+    - name: Load test 2
+      language: node_js
+      node_js: 14
+      before_install: skip
+      script:
+        -  export APPLITOOLS_API_KEY=Jie0hycCfMPWfSQj5iXhYN4xUo9NQ8llJPX0eiqWrvI110
+        - npm install --save-dev @applitools/eyes-storybook
+        - touch applitools.config.js
+        - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
+        - npx eyes-storybook --conf applitools.config.js
+    - name: Load test 1
+      language: node_js
+      node_js: 14
+      before_install: skip
+      script:
+        - export APPLITOOLS_API_KEY=Y23EJfdvNrMBsvW97yYYviHz7Z69scgghK8aa77aHP94110
+        - npm install --save-dev @applitools/eyes-storybook
+        - touch applitools.config.js
+        - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
+        - npx eyes-storybook --conf applitools.config.js
+    - name: Load test 2
+      language: node_js
+      node_js: 14
+      before_install: skip
+      script:
+        -  export APPLITOOLS_API_KEY=Jie0hycCfMPWfSQj5iXhYN4xUo9NQ8llJPX0eiqWrvI110
+        - npm install --save-dev @applitools/eyes-storybook
+        - touch applitools.config.js
+        - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
+        - npx eyes-storybook --conf applitools.config.js
+    - name: Load test 1
+      language: node_js
+      node_js: 14
+      before_install: skip
+      script:
+        - export APPLITOOLS_API_KEY=Y23EJfdvNrMBsvW97yYYviHz7Z69scgghK8aa77aHP94110
+        - npm install --save-dev @applitools/eyes-storybook
+        - touch applitools.config.js
+        - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
+        - npx eyes-storybook --conf applitools.config.js
+    - name: Load test 2
+      language: node_js
+      node_js: 14
+      before_install: skip
+      script:
+        -  export APPLITOOLS_API_KEY=Jie0hycCfMPWfSQj5iXhYN4xUo9NQ8llJPX0eiqWrvI110
+        - npm install --save-dev @applitools/eyes-storybook
+        - touch applitools.config.js
+        - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
+        - npx eyes-storybook --conf applitools.config.js
+    - name: Load test 1
+      language: node_js
+      node_js: 14
+      before_install: skip
+      script:
+        - export APPLITOOLS_API_KEY=Y23EJfdvNrMBsvW97yYYviHz7Z69scgghK8aa77aHP94110
+        - npm install --save-dev @applitools/eyes-storybook
+        - touch applitools.config.js
+        - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
+        - npx eyes-storybook --conf applitools.config.js
+    - name: Load test 2
+      language: node_js
+      node_js: 14
+      before_install: skip
+      script:
+        -  export APPLITOOLS_API_KEY=Jie0hycCfMPWfSQj5iXhYN4xUo9NQ8llJPX0eiqWrvI110
+        - npm install --save-dev @applitools/eyes-storybook
+        - touch applitools.config.js
+        - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
+        - npx eyes-storybook --conf applitools.config.js
+    - name: Load test 1
+      language: node_js
+      node_js: 14
+      before_install: skip
+      script:
+        - export APPLITOOLS_API_KEY=Y23EJfdvNrMBsvW97yYYviHz7Z69scgghK8aa77aHP94110
+        - npm install --save-dev @applitools/eyes-storybook
+        - touch applitools.config.js
+        - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
+        - npx eyes-storybook --conf applitools.config.js
+    - name: Load test 2
+      language: node_js
+      node_js: 14
+      before_install: skip
+      script:
+        -  export APPLITOOLS_API_KEY=Jie0hycCfMPWfSQj5iXhYN4xUo9NQ8llJPX0eiqWrvI110
+        - npm install --save-dev @applitools/eyes-storybook
+        - touch applitools.config.js
+        - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
+        - npx eyes-storybook --conf applitools.config.js
+    - name: Load test 1
+      language: node_js
+      node_js: 14
+      before_install: skip
+      script:
+        - export APPLITOOLS_API_KEY=Y23EJfdvNrMBsvW97yYYviHz7Z69scgghK8aa77aHP94110
+        - npm install --save-dev @applitools/eyes-storybook
+        - touch applitools.config.js
+        - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
+        - npx eyes-storybook --conf applitools.config.js
+    - name: Load test 2
+      language: node_js
+      node_js: 14
+      before_install: skip
+      script:
+        -  export APPLITOOLS_API_KEY=Jie0hycCfMPWfSQj5iXhYN4xUo9NQ8llJPX0eiqWrvI110
+        - npm install --save-dev @applitools/eyes-storybook
+        - touch applitools.config.js
+        - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
+        - npx eyes-storybook --conf applitools.config.js
+    - name: Load test 1
+      language: node_js
+      node_js: 14
+      before_install: skip
+      script:
+        - export APPLITOOLS_API_KEY=Y23EJfdvNrMBsvW97yYYviHz7Z69scgghK8aa77aHP94110
+        - npm install --save-dev @applitools/eyes-storybook
+        - touch applitools.config.js
+        - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
+        - npx eyes-storybook --conf applitools.config.js
+    - name: Load test 2
+      language: node_js
+      node_js: 14
+      before_install: skip
+      script:
+        -  export APPLITOOLS_API_KEY=Jie0hycCfMPWfSQj5iXhYN4xUo9NQ8llJPX0eiqWrvI110
+        - npm install --save-dev @applitools/eyes-storybook
+        - touch applitools.config.js
+        - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
+        - npx eyes-storybook --conf applitools.config.js
+    - name: Load test 1
+      language: node_js
+      node_js: 14
+      before_install: skip
+      script:
+        - export APPLITOOLS_API_KEY=Y23EJfdvNrMBsvW97yYYviHz7Z69scgghK8aa77aHP94110
+        - npm install --save-dev @applitools/eyes-storybook
+        - touch applitools.config.js
+        - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
+        - npx eyes-storybook --conf applitools.config.js
+    - name: Load test 2
+      language: node_js
+      node_js: 14
+      before_install: skip
+      script:
+        -  export APPLITOOLS_API_KEY=Jie0hycCfMPWfSQj5iXhYN4xUo9NQ8llJPX0eiqWrvI110
+        - npm install --save-dev @applitools/eyes-storybook
+        - touch applitools.config.js
+        - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
+        - npx eyes-storybook --conf applitools.config.js
+    - name: Load test 1
+      language: node_js
+      node_js: 14
+      before_install: skip
+      script:
+        - export APPLITOOLS_API_KEY=Y23EJfdvNrMBsvW97yYYviHz7Z69scgghK8aa77aHP94110
+        - npm install --save-dev @applitools/eyes-storybook
+        - touch applitools.config.js
+        - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
+        - npx eyes-storybook --conf applitools.config.js
+    - name: Load test 2
+      language: node_js
+      node_js: 14
+      before_install: skip
+      script:
+        -  export APPLITOOLS_API_KEY=Jie0hycCfMPWfSQj5iXhYN4xUo9NQ8llJPX0eiqWrvI110
+        - npm install --save-dev @applitools/eyes-storybook
+        - touch applitools.config.js
+        - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
+        - npx eyes-storybook --conf applitools.config.js
+    - name: Load test 1
+      language: node_js
+      node_js: 14
+      before_install: skip
+      script:
+        - export APPLITOOLS_API_KEY=Y23EJfdvNrMBsvW97yYYviHz7Z69scgghK8aa77aHP94110
+        - npm install --save-dev @applitools/eyes-storybook
+        - touch applitools.config.js
+        - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
+        - npx eyes-storybook --conf applitools.config.js
+    - name: Load test 2
+      language: node_js
+      node_js: 14
+      before_install: skip
+      script:
+        -  export APPLITOOLS_API_KEY=Jie0hycCfMPWfSQj5iXhYN4xUo9NQ8llJPX0eiqWrvI110
+        - npm install --save-dev @applitools/eyes-storybook
+        - touch applitools.config.js
+        - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
+        - npx eyes-storybook --conf applitools.config.js
