@@ -40,7 +40,7 @@ jobs:
         - touch applitools.config.js
         - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
         - npx eyes-storybook --conf applitools.config.js
-    - name: Load test 1
+    - name: Load test 3
       language: node_js
       node_js: 14
       before_install: skip
@@ -50,7 +50,7 @@ jobs:
         - touch applitools.config.js
         - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
         - npx eyes-storybook --conf applitools.config.js
-    - name: Load test 2
+    - name: Load test 4
       language: node_js
       node_js: 14
       before_install: skip
@@ -60,7 +60,7 @@ jobs:
         - touch applitools.config.js
         - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
         - npx eyes-storybook --conf applitools.config.js
-    - name: Load test 1
+    - name: Load test 5
       language: node_js
       node_js: 14
       before_install: skip
@@ -70,7 +70,7 @@ jobs:
         - touch applitools.config.js
         - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
         - npx eyes-storybook --conf applitools.config.js
-    - name: Load test 2
+    - name: Load test 6
       language: node_js
       node_js: 14
       before_install: skip
@@ -80,7 +80,7 @@ jobs:
         - touch applitools.config.js
         - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
         - npx eyes-storybook --conf applitools.config.js
-    - name: Load test 1
+    - name: Load test 7
       language: node_js
       node_js: 14
       before_install: skip
@@ -90,7 +90,7 @@ jobs:
         - touch applitools.config.js
         - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
         - npx eyes-storybook --conf applitools.config.js
-    - name: Load test 2
+    - name: Load test 8
       language: node_js
       node_js: 14
       before_install: skip
@@ -100,7 +100,7 @@ jobs:
         - touch applitools.config.js
         - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
         - npx eyes-storybook --conf applitools.config.js
-    - name: Load test 1
+    - name: Load test 9
       language: node_js
       node_js: 14
       before_install: skip
@@ -110,7 +110,7 @@ jobs:
         - touch applitools.config.js
         - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
         - npx eyes-storybook --conf applitools.config.js
-    - name: Load test 2
+    - name: Load test 10
       language: node_js
       node_js: 14
       before_install: skip
@@ -120,7 +120,7 @@ jobs:
         - touch applitools.config.js
         - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
         - npx eyes-storybook --conf applitools.config.js
-    - name: Load test 1
+    - name: Load test 11
       language: node_js
       node_js: 14
       before_install: skip
@@ -130,7 +130,7 @@ jobs:
         - touch applitools.config.js
         - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
         - npx eyes-storybook --conf applitools.config.js
-    - name: Load test 2
+    - name: Load test 12
       language: node_js
       node_js: 14
       before_install: skip
@@ -140,7 +140,7 @@ jobs:
         - touch applitools.config.js
         - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
         - npx eyes-storybook --conf applitools.config.js
-    - name: Load test 1
+    - name: Load test 13
       language: node_js
       node_js: 14
       before_install: skip
@@ -150,7 +150,7 @@ jobs:
         - touch applitools.config.js
         - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
         - npx eyes-storybook --conf applitools.config.js
-    - name: Load test 2
+    - name: Load test 14
       language: node_js
       node_js: 14
       before_install: skip
@@ -160,7 +160,7 @@ jobs:
         - touch applitools.config.js
         - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
         - npx eyes-storybook --conf applitools.config.js
-    - name: Load test 1
+    - name: Load test 15
       language: node_js
       node_js: 14
       before_install: skip
@@ -170,7 +170,7 @@ jobs:
         - touch applitools.config.js
         - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
         - npx eyes-storybook --conf applitools.config.js
-    - name: Load test 2
+    - name: Load test 16
       language: node_js
       node_js: 14
       before_install: skip
@@ -180,7 +180,7 @@ jobs:
         - touch applitools.config.js
         - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
         - npx eyes-storybook --conf applitools.config.js
-    - name: Load test 1
+    - name: Load test 17
       language: node_js
       node_js: 14
       before_install: skip
@@ -190,7 +190,7 @@ jobs:
         - touch applitools.config.js
         - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
         - npx eyes-storybook --conf applitools.config.js
-    - name: Load test 2
+    - name: Load test 18
       language: node_js
       node_js: 14
       before_install: skip
@@ -200,7 +200,7 @@ jobs:
         - touch applitools.config.js
         - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
         - npx eyes-storybook --conf applitools.config.js
-    - name: Load test 1
+    - name: Load test 19
       language: node_js
       node_js: 14
       before_install: skip
@@ -210,7 +210,7 @@ jobs:
         - touch applitools.config.js
         - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
         - npx eyes-storybook --conf applitools.config.js
-    - name: Load test 2
+    - name: Load test 20
       language: node_js
       node_js: 14
       before_install: skip
@@ -220,7 +220,7 @@ jobs:
         - touch applitools.config.js
         - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
         - npx eyes-storybook --conf applitools.config.js
-    - name: Load test 1
+    - name: Load test 21
       language: node_js
       node_js: 14
       before_install: skip
@@ -230,7 +230,7 @@ jobs:
         - touch applitools.config.js
         - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
         - npx eyes-storybook --conf applitools.config.js
-    - name: Load test 2
+    - name: Load test 22
       language: node_js
       node_js: 14
       before_install: skip
@@ -240,7 +240,7 @@ jobs:
         - touch applitools.config.js
         - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
         - npx eyes-storybook --conf applitools.config.js
-    - name: Load test 1
+    - name: Load test 23
       language: node_js
       node_js: 14
       before_install: skip
@@ -250,7 +250,7 @@ jobs:
         - touch applitools.config.js
         - sed 's+{buildName}+LoadTest1+g' config.file.template > applitools.config.js
         - npx eyes-storybook --conf applitools.config.js
-    - name: Load test 2
+    - name: Load test 24
       language: node_js
       node_js: 14
       before_install: skip
