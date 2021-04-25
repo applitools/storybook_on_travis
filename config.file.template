@@ -1,5 +1,5 @@
 module.exports = {
-  testConcurrency: 50,
+  testConcurrency: 80,
   showLogs: false,
   appName: "{buildName}",
   batchName: "{buildName}",
