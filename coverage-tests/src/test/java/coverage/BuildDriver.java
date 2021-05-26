@@ -27,6 +27,7 @@ public class BuildDriver {
     private final String SELENIUM_CHROME_URL = "http://localhost:4444/wd/hub";
     private final String SELENIUM_FIREFOX_URL = "http://localhost:4445/wd/hub";
     private final String SAUCE_URL = "https://ondemand.saucelabs.com:443/wd/hub";
+    private final String apiKey = "GKMJHJ6XYsnt8NZNn4jDsrEy6C5KK96c";
 
 
     public WebDriver getDriver() {
@@ -38,6 +39,7 @@ public class BuildDriver {
     public void buildDriver(Capabilities capabilities, String url) {
         try {
             driver = new RemoteWebDriver(new URL(url), capabilities);
+            
         } catch (MalformedURLException ignored) {
             ignored.printStackTrace();
         }
@@ -136,6 +138,7 @@ public class BuildDriver {
         if (legacy) {
             safari.setCapability("version", "11.0");
             safari.setCapability("platform", "macOS 10.12");
+            safari.setCapability("key", apiKey);
         } else {
             safari.setCapability("browserVersion", "11.0");
             safari.setCapability("platformName", "macOS 10.12");
